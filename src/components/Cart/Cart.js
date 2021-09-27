@@ -2,10 +2,10 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    //console.log(props);      
-    const { name, img, songtype, gender, payment, country } = props.singer;
 
-       
+    //Destructireing-data-value-to-show-in-cart
+
+    const { name, img, songtype, gender, payment, country } = props.singer;
 
     return (
         <div className="card my-4 border-secondary shadow-lg bg-body rounded">

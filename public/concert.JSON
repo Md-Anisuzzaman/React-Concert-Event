@@ -1,6 +1,6 @@
 [
     {
-        "key": "1",
+        "key": 1,
         "name": "James",
         "songtype": "Rock",
         "gender": "Male",
@@ -9,7 +9,7 @@
         "country": "Bangladesh"
     },
     {
-        "key": "2",
+        "key": 2,
         "name": "Arijit Sing",
         "songtype": "Romantic",
         "gender": "Male",
@@ -18,7 +18,7 @@
         "country": "India"
     },
     {
-        "key": "3",
+        "key": 3,
         "name": "Jubin Nautiyal",
         "songtype": "Romantic",
         "gender": "Male",
@@ -27,7 +27,7 @@
         "country": "India"
     },
     {
-        "key": "4",
+        "key": 4,
         "name": "Mila",
         "songtype": "Pop",
         "gender": "Female",
@@ -36,7 +36,7 @@
         "country": "Bangladesh"
     },
     {
-        "key": "5",
+        "key": 5,
         "name": "Tahsan",
         "songtype": "Romantic",
         "gender": "Male",
@@ -45,7 +45,7 @@
         "country": "Bangladesh"
     },
     {
-        "key": "6",
+        "key": 6,
         "name": "Neha Kakkar",
         "songtype": "Pop",
         "gender": "Female",
@@ -53,8 +53,9 @@
         "payment": "60000",
         "country": "India"
     },
+
     {
-        "key": "7",
+        "key": 7,
         "name": "Habib",
         "songtype": "Romantic",
         "gender": "Male",
@@ -62,8 +63,9 @@
         "payment": "40000",
         "country": "Bangladesh"
     },
+
     {
-        "key": "8",
+        "key": 8,
         "name": "Kona",
         "songtype": "Melody",
         "gender": "Female",
@@ -71,8 +73,9 @@
         "payment": "40000",
         "country": "Bangladesh"
     },
+    
     {
-        "key": "9",
+        "key": 9,
         "name": "Sreya Ghosal",
         "songtype": "Clasical",
         "gender": "Female",

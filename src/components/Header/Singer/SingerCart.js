@@ -7,7 +7,11 @@ import CartTow from '../../CartTwo/CartTow';
 
 const SingerCart = () => {
 
+    //singers-state-declaration
+
     const [singers, setSingers] = useState([]);
+
+    //cart-state-declaration
 
     const [cart, setCart] = useState([]);
 
@@ -17,37 +21,36 @@ const SingerCart = () => {
             .then(data => setSingers(data))
     }, [])
 
+    //Event-Handler-function-to-add-item-by-using-spread-operator
+
     const handleAddToCart = (singer) => {
-        //console.log(singer);
         const newCart = [...cart, singer];
         setCart(newCart);
     }
 
-    
-    return (
 
+    return (
         <div className="container">
             <div className="row">
                 <div className="col-md-8">
                     <div className="row">
-                    {
-                        singers.map(singer => (
-                            <div className="col-md-4">
-                                <Cart 
-                                key={singer.key}
-                                singer={singer}
-                                handleAddToCart = {handleAddToCart}
-                                >   
-                                </Cart>
-                            </div>
-                        )
-                        )
-                    }
+                        {
+                            singers.map(singer => (
+                                <div className="col-md-4" key={singer.key}>
+                                    <Cart
+                                        singer={singer}
+                                        handleAddToCart={handleAddToCart}
+                                    >
+                                    </Cart>
+                                </div>
+                            )
+                            )
+                        }
                     </div>
                 </div>
 
                 <div className="col-md-4 my-5">
-                    <CartTow cart = {cart}> </CartTow>
+                    <CartTow cart={cart}> </CartTow>
                 </div>
 
 
