@@ -1,0 +1,12 @@
+.boxShadow{
+    box-shadow: 20px;
+}
+
+.card-img{
+    height: 150px;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    border-radius: 18px;
+}

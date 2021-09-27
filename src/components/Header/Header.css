@@ -1,0 +1,30 @@
+.header-container{
+
+ /* background-color:teal; */
+ background-image:url("https://www.teahub.io/photos/full/237-2379982_free-concert-high-quality-wallpaper-id-music-concert.jpg");
+ height: 280px;
+}
+
+.header-container h1{
+    /* color:cornsilk; */
+    font-size: 50px;
+}
+
+.header-container p{
+    color:wheat;
+    font-size: 30px;
+}
+
+.header-container h2{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.header-container button{
+    background-color:tomato;
+    /* font-size: 18px; */
+    /* border: 2px solid gray; */
+    border-radius: 18px;
+   
+}
